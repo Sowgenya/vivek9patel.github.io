@@ -61,7 +61,7 @@ export class Calc extends Component {
         let terminal = this.state.terminal;
         terminal.push(this.terminalRow(this.terminal_rows));
         this.setState({ terminal });
-        this.terminal_rows += 2;
+        this.terminal_rows += 3;
     }
 
     terminalRow = (id) => {
